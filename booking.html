@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Eventualities Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.js"></script>
+    <link rel="stylesheet" href="css/spin.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-1" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0"><a href="#" class="text-black h2 mb-0">Eventualities</a></h1>
+          </div>
+          <div class="col-10 col-md-8 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html#meet">Meet our Awesome Team</a></li>
+                <li><a href="#">Logout</a></li>
+                <!-- <li><a href="booking.html">Book Online</a></li> -->
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right">
+            <div class="d-none d-xl-inline-block">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                <li>
+                  <a href="#" class="pl-0 pr-3 text-black"><span class="icon-tripadvisor"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-instagram"></span></a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </header>
+
+
+    <div class="site-blocks-cover inner-page-cover" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light">DO more of what you LOVE</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="site-section bg-light" id="mainBlock">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form action="#" class="p-5 bg-white">
+                <div class="row form-group">
+                  <h2> Let's find some events</h2>
+                  <div class="col-md-6">
+                    <label class="text-black" for="lname">Zip Code</label>
+                    <input type="text" id="zip" class="form-control" placeholder="Zip Code (or) City">
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label class="text-black" for="date">Date</label>
+                    <input type="text" id="date" class="form-control datepicker px-2" placeholder="Date of visit">
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-6">
+                    <label class="text-black" for="dollar">Event Cost</label>
+                    <select name="treatment" id="dollar" class="form-control">
+                      <option value="paid">Paid Event</option>
+                      <option value="free">Free Event</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                      <label class="text-black" for="sortID">Sort By</label>
+                      <select name="treatment" id="sortID" class="form-control">
+                        <option value="distance">distance</option>
+                        <option value="date">date</option>
+                        <option value="date">best</option>
+                      </select>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-6">
+                    <label class="text-black" for="eventType">Event Type</label>
+                    <select name="treatment" id="eventType" class="form-control">
+                        <option value="general" data-catogory="103"> </option>
+                        <option value="Music" data-catogory="103"> Music</option>
+                        <option value="BusinessProfessional" data-catogory="101">Business & Professional</option>
+                        <option value="FoodDrink" data-catogory="110">Food & Drink</option>
+                        <option value="CommunityCulture" data-catogory="113">Community & Culture</option>
+                        <option value="FilmMediaEntertainment" data-catogory="104">Film, Media & Entertainment</option>
+                        <option value="SportsFitness" data-catogory="107">Sports & Fitness</option>
+                        <option value="ScienceTechnology" data-catogory="102">Science & Technology</option>
+                        <option value="TravelOutdoor" data-catogory="111">Travel & Outdoor </option>
+                        <option value="ReligionSpirituality" data-catogory="114">Religion & Spirituality</option>
+                        <option value="other" data-catogory="">Other</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6" style="display: none" id="refinedDiv">
+                      <label class="text-black" for="otherCatogory">Refined Search</label>
+                      <input type="text" id="refinedSearch" class="form-control" placeholder="Search String">
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <input type="submit" id="submit" value="Search" class="btn btn-primary py-2 px-4 text-white">
+                  </div>
+                </div>
+
+
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="p-4 mb-3 bg-white">
+                <img src="images/hero_bg_1.jpg" alt="Image" class="img-fluid mb-4 rounded">
+                <h3 class="h5 text-black mb-3">Breif Intro about the Site</h3>
+                <p>Eventualities is an application for the people who would like get out of their couches and find something Fun. Eventualities was born in Rutgers BootCamp in April, 2019. </p>
+                <p><a href="about.html" class="btn btn-primary px-4 py-2 text-white">Learn More</a></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="spinnerContainer" class="spinner"></div>
+      <div class="container" id="resultBlock" style="background: #ccc">
+          <button style="display: none" id="gotop" title="Clear Search Results">Clear Search Results</button>
+
+      </div>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="mb-5">
+                <h3 class="footer-heading mb-4">Eventualities</h3>
+                <p>Copyright &copy;2019 All rights reserved | <br>Application made with  <i class="icon-heart-o" aria-hidden="true"></i> by <a href="about.html#meet" target="_blank" >Rutgers BootCamp Group 4 Team</a></p>
+              </div>
+              </div>
+              </div>
+              </div>
+              </footer>
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/logic.js"></script>
+  </body>
+</html>
